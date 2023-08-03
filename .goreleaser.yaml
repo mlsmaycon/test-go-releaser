@@ -1,8 +1,7 @@
 project_name: test
 builds:
   - id: test
-    dir: client
-    binary: netbird
+    binary: test
     env: [CGO_ENABLED=0]
     goos:
       - linux
