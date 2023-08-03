@@ -1,8 +1,10 @@
 package main
 
-import "fmt"
+import (
+	log "github.com/sirupsen/logrus"
+)
 
 // print hello world in a main function
 func main() {
-	fmt.Println("Hello World")
+	log.Infof("Hello %s", "World")
 }
