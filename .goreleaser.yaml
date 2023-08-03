@@ -7,7 +7,9 @@ builds:
       - linux
     goarch:
       - arm64
-
+checksum:
+  extra_files:
+    - glob: ./testing-file.sh
 release:
   extra_files:
     - glob: ./testing-file.sh
