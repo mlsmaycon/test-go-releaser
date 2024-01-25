@@ -1,4 +1,4 @@
-< --
+<!--
 ---
 name: Bug/Issue report
 about: Create a report to help us improve
@@ -7,7 +7,7 @@ labels: ''
 assignees: ''
 
 ---
--- >
+-->
 
 **Describe the problem**
 
