@@ -1,8 +1,6 @@
 name: test checks
 on:
-  schedule:
-    - cron: '*/5 * * * *'
-  #workflow_dispatch:
+  workflow_dispatch:
   #push:
 jobs:
   run-test-checks:
